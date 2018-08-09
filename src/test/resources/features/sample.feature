@@ -1,8 +1,7 @@
 Feature: System performs with acceptable level of anomalies
-@collection
-  Scenario: Testing Collection Service
-
-    Given configured GET http sampler for "Collection Page" page
+@collection @exec
+Scenario: Testing Collection Service
+    Given configured GET http sampler for "XYZ Page" page
     And add sampler request to TestPlan
     And add HeaderManager to TestPlan
     Given configured GET http sampler for "Navigation Page" page
@@ -11,7 +10,6 @@ Feature: System performs with acceptable level of anomalies
     And repeat the script in 2 loops
     Then run this script
 
-  @exec
   Scenario: Create Vs Account and sign out for multiple users
 
     Given add HeaderManager to TestPlan

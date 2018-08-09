@@ -21,7 +21,7 @@ public class HttpSamplerSteps implements En {
             httpRequest = new HTTPSamplerProxy();
             httpRequest.setDoMultipartPost(false);
             httpRequest.setDoMultipartPost(false);
-            httpRequest.setDomain("api.victoriassecret.com");
+            httpRequest.setDomain("api.xyz.com");
             httpRequest.setProtocol("https");
             httpRequest.setPath(LoadProperties.getPage(page).getPath());
             httpRequest.setMethod("GET");
@@ -36,7 +36,7 @@ public class HttpSamplerSteps implements En {
             httpRequest = new HTTPSamplerProxy();
             httpRequest.setDoMultipartPost(false);
             httpRequest.setDoMultipartPost(false);
-            httpRequest.setDomain("api.victoriassecret.com");
+            httpRequest.setDomain("api.xyz.com");
             httpRequest.setProtocol("https");
             httpRequest.setPath(LoadProperties.getPage(api).getPath());
             httpRequest.setMethod("POST");

@@ -28,7 +28,7 @@ public class Test {
     public static void main(String[] argv) throws Exception {
 
         //Set jmeter home for the jmeter utils to load
-        File jmeterHome = new File("/Users/vkati/Documents/apache-jmeter-4.0");
+        File jmeterHome = new File("/path/apache-jmeter-4.0");
         String slash = System.getProperty("file.separator");
 
         if (jmeterHome.exists()) {
@@ -53,9 +53,9 @@ public class Test {
                 HTTPSamplerProxy httpRequest = new HTTPSamplerProxy();
                 httpRequest.setDoMultipartPost(false);
                 httpRequest.setDoMultipartPost(false);
-                httpRequest.setDomain("api.victoriassecret.com");
+                httpRequest.setDomain("api.xyz.com");
                 httpRequest.setProtocol("https");
-                httpRequest.setPath("/collections/v2/88ad8719-e953-4cf3-9d5f-0f8217ee3e4b/page");
+                httpRequest.setPath("/collections/v2/xyz/page");
                 httpRequest.setMethod("GET");
                 httpRequest.setAutoRedirects(false);
                 httpRequest.setName("Collection page");

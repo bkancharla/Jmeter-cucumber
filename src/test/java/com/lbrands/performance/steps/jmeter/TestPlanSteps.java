@@ -82,7 +82,7 @@ public class TestPlanSteps implements En {
     }
 
     private void setDefaultJmeterProperties() {
-        File jmeterHome = new File("/Users/mmurugaiah/Documents/apache-jmeter-4.0");
+        File jmeterHome = new File("/Users/bkancharla/Documents/apache-jmeter-4.0");
 
         JMeterUtils.setJMeterHome(jmeterHome.getPath());
         JMeterUtils.loadJMeterProperties("./src/main/java/jmeter.properties");

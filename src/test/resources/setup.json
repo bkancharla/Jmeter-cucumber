@@ -1,7 +1,7 @@
 [
   {
-    "apiName": "Collection Page",
-    "path": "collections/v2/88ad8719-e953-4cf3-9d5f-0f8217ee3e4b/page",
+    "apiName": "XYZ Page",
+    "path": "XYZ/page",
     "requestType": "GET",
     "request": ""
   },
@@ -15,7 +15,7 @@
     "apiName": "Create Account",
     "path": "/auth/v1/create-account-vs",
     "requestType": "POST",
-    "request": "{\"email\":\"${username}\",\"password\":\"${password}\",\"firstName\":\"Victoria\",\"countryCode\":\"US\",\"channel\":\"VSWEB\",\"recaptchaToken\":\"o9asfdno92hasdfo9u235\"}",
+    "request": "{\"email\":\"${username}\",\"password\":\"${password}\",\"firstName\":\"test\",\"countryCode\":\"US\",\"channel\":\"VSWEB\",\"recaptchaToken\":\"o9asfdno92hasdfo9u235\"}",
     "csvpath": "/jmeter-api-performance-poc/test.csv",
     "variables": "username,password"
   },
