@@ -1,0 +1,28 @@
+[
+  {
+    "apiName": "Collection Page",
+    "path": "collections/v2/88ad8719-e953-4cf3-9d5f-0f8217ee3e4b/page",
+    "requestType": "GET",
+    "request": ""
+  },
+  {
+    "apiName": "Navigation Page",
+    "path": "/navigations/v1/",
+    "requestType": "GET",
+    "request": ""
+  },
+  {
+    "apiName": "Create Account",
+    "path": "/auth/v1/create-account-vs",
+    "requestType": "POST",
+    "request": "{\"email\":\"${username}\",\"password\":\"${password}\",\"firstName\":\"Victoria\",\"countryCode\":\"US\",\"channel\":\"VSWEB\",\"recaptchaToken\":\"o9asfdno92hasdfo9u235\"}",
+    "csvpath": "/jmeter-api-performance-poc/test.csv",
+    "variables": "username,password"
+  },
+  {
+    "apiName": "Sign Out",
+    "path": "/auth/v1/sign-out",
+    "requestType": "GET",
+    "request": ""
+  }
+]
