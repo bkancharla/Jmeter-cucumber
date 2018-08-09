@@ -1,1 +1,0 @@
-Generate Jmeter Report``: ./jmeter -g /Users/bkancharla/Documents/jmeter-api-performance-poc/report.jtl -o /Users/bkancharla/Documents/jmeter-api-performance-poc/target/reports

@@ -68,7 +68,7 @@ public class Test {
 
                 HeaderManager manager = new HeaderManager();
                 manager.setName("header Info");
-                manager.add(new Header("Origin", "apitest.victoriassecret.com"));
+                manager.add(new Header("Origin", "apitest.text.com"));
                 manager.setEnabled(true);
                 manager.setProperty(TestElement.TEST_CLASS, HeaderManager.class.getName());
                 manager.setProperty(TestElement.GUI_CLASS, HeaderPanel.class.getName());
